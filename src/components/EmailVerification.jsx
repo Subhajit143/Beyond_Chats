@@ -40,7 +40,7 @@ const EmailVerification = () => {
   };
 
   const handleBack =()=>{
-    dispatch(setStep(-1))
+    dispatch(setStep(1))
   }
 
   return (

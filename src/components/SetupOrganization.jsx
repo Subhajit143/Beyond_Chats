@@ -26,7 +26,7 @@ const SetupOrganization = () => {
     setDescription(fetchedDescription)
   }
   const handleBack =()=>{
-      dispatch(setStep(-1))
+      dispatch(setStep(2))
     }
   return (
     <div className="relative  min-h-screen   p-8 rounded-lg flex items-center justify-center">
